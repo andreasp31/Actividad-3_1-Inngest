@@ -1,0 +1,47 @@
+package com.example.myapplication;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+
+import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+
+public class NivelPuntuacion extends AppCompatActivity {
+
+    //Nos lleva a las ventanas de los ranking según su dificultad
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        EdgeToEdge.enable(this);
+        setContentView(R.layout.activity_nivel_puntuacion);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
+    }
+    public void volverMenu(View view){
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void irRankingF(View view) {
+        Intent intent = new Intent(this, RankingFacil.class);
+        startActivity(intent);
+    }
+    public void irRankingM(View view) {
+        Intent intent = new Intent(this, RankingMedio.class);
+        startActivity(intent);
+    }
+    public void irRankingD(View view) {
+        Intent intent = new Intent(this, RankingDificil.class);
+        startActivity(intent);
+    }
+
+
+}
