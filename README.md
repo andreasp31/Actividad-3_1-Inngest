@@ -28,7 +28,7 @@ Para verificar que todo el flujo funcionaba sin errores, seguí estos pasos:
 En esta captura se puede observar cómo probamos con unos datos en el panel de inngest.
 ![Panel de Inngest](BaseDatos/capturas/inngest4.png)
 
-![Panel de Inngest completado](BaseDatoscapturas/inngest7.png)
+![Panel de Inngest completado](BaseDatos/capturas/inngest7.png)
 
 ### Notificación Recibida
 Resultado final en el chat de Telegram con los datos del jugador:
