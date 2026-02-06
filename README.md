@@ -26,13 +26,13 @@ Para verificar que todo el flujo funcionaba sin errores, seguí estos pasos:
 
 ### Registro de ejecución en Inngest
 En esta captura se puede observar cómo probamos con unos datos en el panel de inngest.
-![Panel de Inngest](capturas/inngest4.png)
+![Panel de Inngest](BaseDatos/capturas/inngest4.png)
 
-![Panel de Inngest completado](capturas/inngest7.png)
+![Panel de Inngest completado](BaseDatoscapturas/inngest7.png)
 
 ### Notificación Recibida
 Resultado final en el chat de Telegram con los datos del jugador:
-![Mensaje de Telegram](capturas/inngest6.png)
+![Mensaje de Telegram](BaseDatos/capturas/inngest6.png)
 
 ## Cómo ejecutar el proyecto
 1.  Ejecutar `npm install`.
