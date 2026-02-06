@@ -24,6 +24,8 @@ Para verificar que todo el flujo funcionaba sin errores, seguí estos pasos:
 
 ## Capturas de los pasos y resultado
 
+No pongo capturas del código porque se basa en el repositorio dado por el profesor
+
 ### Registro de ejecución en Inngest
 En esta captura se puede observar cómo probamos con unos datos en el panel de inngest.
 ![Panel de Inngest](BaseDatos/capturas/inngest4.png)
